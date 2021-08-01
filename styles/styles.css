@@ -12,50 +12,86 @@ body {
   color: var(--text-color);
 }
 
-h1 {
-  font-size: 96px;
+body h1 {
   font-family: var(--header-font-family);
-}
-
-h2 {
-  font-size: 24px;
-  font-family: var(--default-font-family);
-}
-
-p {
-  font-size: 36px;
-  font-family: var(--default-font-family);
-}
-
-img {
-  display: flex;
-  justify-content: right;
 }
 
 .hero {
   background-color: var(--branding-color);
-  padding: 100px 60px;
-  text-align: center;
+  width: 100%;
+  height: 550;
+}
+
+.hero h1,
+h3,
+p {
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 80px;
+}
+
+.hero h3 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+.info-text {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.intro-img {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 50px 20px;
+}
+
+.spacer {
+  padding-top: 90px;
+}
+
+.img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-info {
+  text-align: left;
+}
+
+.btn-branding {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 15px 60px;
 }
 
 @media (max-width: 576px) {
-  h1 {
-    font-size: 72px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 24px;
-  }
-
-  img {
+  .headshot {
     display: none;
   }
 
-  .hero .intro {
+  .intro-img {
+    padding: 0;
+    display: none;
+  }
+
+  .hero h1,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .app-info {
     text-align: center;
   }
 }

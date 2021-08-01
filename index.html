@@ -22,13 +22,24 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <div class="hero">
-      <p>Hello, I'm</p>
-      <h1>Allison Maurer</h1>
-      <h2>A front-end developer based in Minneapolis, MN</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col info-text">
+            <div class="intro-info">
+              <h3>Hello, I'm</h3>
+              <h1>Allison Maurer</h1>
+              <p>A front-end developer based in Minneapolis, MN</p>
+            </div>
+          </div>
+          <div class="col justify-content-end intro-img">
+            <img src="/images/headshot.png" class="img-fluid headshot" alt="" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
