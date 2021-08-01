@@ -1,9 +1,86 @@
+:root {
+  --header-font-family: 'Heebo', sans-serif;
+  --default-font-family: 'Playfair Display', serif;
+  --text-color: #4c4c4c;
+  --branding-color: #f8edeb;
+  --primary-color: #d8e2dc;
+  --secondary-color: #ece4db;
+}
+
+body {
+  font-family: var(--default-font-family);
+  color: var(--text-color);
+}
+
 h1 {
   font-size: 96px;
-  font-family: 'Heebo', sans-serif;
+  font-family: var(--header-font-family);
 }
 
 h2 {
+  font-size: 50px;
+  font-family: var(--default-font-family);
+}
+
+p {
   font-size: 36px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--default-font-family);
+}
+
+img {
+  display: flex;
+  justify-content: right;
+}
+
+.hero {
+  background-color: var(--branding-color);
+  padding: 100px 60px;
+}
+
+.hero .intro {
+  text-align: left;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  img {
+    display: none;
+  }
+
+  .hero .intro {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  .hero .intro {
+    text-align: center;
+  }
+
+  img {
+    width: 300px;
+  }
 }
