@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 24px;
   font-family: var(--default-font-family);
 }
 
@@ -35,10 +35,7 @@ img {
 .hero {
   background-color: var(--branding-color);
   padding: 100px 60px;
-}
-
-.hero .intro {
-  text-align: left;
+  text-align: center;
 }
 
 @media (max-width: 576px) {
@@ -47,7 +44,7 @@ img {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 18px;
   }
 
   p {
@@ -60,27 +57,5 @@ img {
 
   .hero .intro {
     text-align: center;
-  }
-}
-
-@media (max-width: 800px) {
-  h1 {
-    font-size: 72px;
-  }
-
-  h2 {
-    font-size: 36px;
-  }
-
-  p {
-    font-size: 24px;
-  }
-
-  .hero .intro {
-    text-align: center;
-  }
-
-  img {
-    width: 300px;
   }
 }
