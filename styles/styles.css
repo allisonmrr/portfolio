@@ -29,7 +29,8 @@ p {
   text-align: left;
 }
 
-.hero h1 {
+.hero h1,
+.contact-container h1 {
   font-size: 80px;
 }
 
@@ -129,6 +130,13 @@ p {
 .btn-about-branding {
   background-color: var(--primary-color);
   padding: 15px 20px;
+}
+
+.contact-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 30px;
 }
 
 @media (max-width: 768px) {
