@@ -228,9 +228,9 @@ footer h4 {
   }
 
   .hero h1,
-  h2,
-  h3,
-  p {
+  .hero h2,
+  .hero h3,
+  .hero p {
     text-align: center;
   }
 
