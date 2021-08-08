@@ -208,12 +208,12 @@ footer h4 {
   font-size: 40px;
 }
 
-.email-link {
+.click-link {
   color: var(--text-color);
   transition: all 120ms ease-in-out;
 }
 
-.email-link:hover {
+.click-link:hover {
   color: var(--primary-color);
 }
 
