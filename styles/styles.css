@@ -68,7 +68,8 @@ footer h4 {
   font-size: 24px;
 }
 
-.info-text {
+.info-text,
+.button {
   display: flex;
   align-items: center;
   justify-content: start;
@@ -85,7 +86,8 @@ footer h4 {
   padding-top: 90px;
 }
 
-.img-col {
+.img-col,
+.work-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,12 +122,6 @@ footer h4 {
   padding: 0;
 }
 
-.work-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .work-example-text h2,
 .work-example-text p {
   text-align: center;
@@ -154,11 +150,6 @@ footer h4 {
   width: 100%;
 }
 
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
 .btn-about-branding {
   background-color: var(--primary-color);
   padding: 15px 20px;
@@ -196,7 +187,8 @@ footer h4 {
 
 .fa-github,
 .fa-envelope,
-.fa-linkedin {
+.fa-linkedin,
+.click-link {
   color: var(--text-color);
   transition: all 120ms ease-in-out;
 }
@@ -206,11 +198,6 @@ footer h4 {
 .fa-linkedin:hover {
   color: var(--text-color);
   font-size: 40px;
-}
-
-.click-link {
-  color: var(--text-color);
-  transition: all 120ms ease-in-out;
 }
 
 .click-link:hover {
