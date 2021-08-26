@@ -204,6 +204,10 @@ footer h4 {
   color: var(--primary-color);
 }
 
+.dict-app-img {
+  padding: 50px 0 60px 0;
+}
+
 @media (max-width: 768px) {
   .headshot {
     display: none;
